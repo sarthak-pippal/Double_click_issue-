@@ -11,7 +11,7 @@ window.onload = function (){
         click.style.background = "orange";
       };
 
-      var prevClickMicrotime = microtime(true);
+//       var prevClickMicrotime = microtime(true);
       function microtime(get_as_float) {
         var now = new Date().getTime() / 1000;
         var s = parseInt(now, 10);
